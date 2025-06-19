@@ -49,3 +49,32 @@ var statuscode;
     statuscode["EVERYTHINGISFINE"] = "ok with status code 200";
 })(statuscode || (statuscode = {}));
 statuscode.NOTFOUND;
+//any unknown null undefined void never
+//in any typescript wil switch -off his brain
+let s; //type any
+s = 3;
+s = "sai";
+s.toUpperCase();
+//its fine
+//if we define in unknown 
+let h;
+h = 3;
+h = "siva";
+s.toUpperCase();
+//in any it doesnot check it will pass any argument to the variable so its a bad way
+//in unkown it will first check the type what is it type if this type is ok for this operation then only it will pass if its not it shows the runtime error
+//never
+function call() {
+    while (true) {
+    }
+}
+call();
+console.log("ready for void ");
+//see the both void and never you will understands
+function call2() {
+    while (true) {
+    }
+}
+call2();
+console.log("ready for void ");
+//in this never the console wipp never trigger because in never its a loop it will only run inside the function 
