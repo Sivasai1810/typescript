@@ -62,7 +62,10 @@ s.toUpperCase()
 let h:unknown
 h=3;
 h="siva";
-s.toUpperCase()
+if( typeof h==="string"){
+    h.toUpperCase()
+}
+//h.toUpperCase()
 //in any it doesnot check it will pass any argument to the variable so its a bad way
 //in unkown it will first check the type what is it type if this type is ok for this operation then only it will pass if its not it shows the runtime error
 //never

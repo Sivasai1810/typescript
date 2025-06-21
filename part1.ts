@@ -22,3 +22,16 @@ function admins(obj2:Admin){
 }
 admins({name:"sivasa",email:"dddd",password:454545 , admin:true})
 type id=number |string;
+interface Person {
+  name: string;
+}
+
+interface Person {
+  age: number;
+}
+
+const p: Person = {
+  name: "Siva",
+  age: 20
+}; 
+

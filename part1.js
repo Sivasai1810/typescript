@@ -10,3 +10,7 @@ student({ name: "testcase", email: "email@gmail.com", password: 1234 });
 function admins(obj2) {
 }
 admins({ name: "sivasa", email: "dddd", password: 454545, admin: true });
+const p = {
+    name: "Siva",
+    age: 20
+};
