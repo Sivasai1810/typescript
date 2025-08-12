@@ -9,3 +9,11 @@ class devices {
     }
 }
 const d1 = new devices();
+class bottle {
+    constructor(name, model, price) {
+        this.name = name;
+        this.model = model;
+        this.price = price;
+    }
+}
+let bottle1 = new bottle("suha", "23-0-12", 2033);
